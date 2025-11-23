@@ -4,18 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LokaLingo - Angeles City Guide & Translator</title>
-   <link rel="stylesheet" href="style.css">
+    
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#8B6B4C">
+
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
     <div class="app-container">
-        <!-- App Header -->
         <header>
             <h1>LokaLingo</h1>
             <p>Angeles City Guide & Translator</p>
         </header>
 
-        <!-- Main Navigation -->
         <nav class="main-nav">
             <div class="nav-item active" data-tab="translator">
                 <i class="fas fa-language"></i>
@@ -43,9 +45,7 @@
             </div>
         </nav>
 
-        <!-- Content Sections -->
         <main>
-            <!-- Translator Section -->
             <section id="translator" class="content-section active">
                 <div class="section-header">
                     <h2>Translator</h2>
@@ -88,43 +88,35 @@
                     <div class="common-phrases">
                         <h3>Common Phrases</h3>
                         <div class="phrase-list">
-                            <!-- Phrases will be populated by JavaScript -->
-                        </div>
+                            </div>
                     </div>
                 </div>
             </section>
 
-            <!-- Food Section -->
             <section id="food" class="content-section">
                 <div class="section-header">
                     <h2>Food in Angeles City</h2>
                 </div>
                 <div class="food-list">
-                    <!-- Food items will be populated by JavaScript -->
-                </div>
+                    </div>
             </section>
 
-            <!-- Attractions Section -->
             <section id="attractions" class="content-section">
                 <div class="section-header">
                     <h2>Attractions in Angeles City</h2>
                 </div>
                 <div class="attractions-list">
-                    <!-- Attractions will be populated by JavaScript -->
-                </div>
+                    </div>
             </section>
 
-            <!-- Shopping Section -->
             <section id="shopping" class="content-section">
                 <div class="section-header">
                     <h2>Shopping in Angeles City</h2>
                 </div>
                 <div class="shopping-list">
-                    <!-- Shopping items will be populated by JavaScript -->
-                </div>
+                    </div>
             </section>
 
-            <!-- Emergency Section -->
             <section id="emergency" class="content-section">
                 <div class="section-header">
                     <h2>Emergency Information</h2>
@@ -133,28 +125,23 @@
 
             </section>
 
-            <!-- Transportation Section -->
             <section id="transportation" class="content-section">
                 <div class="section-header">
                     <h2>Transportation Options</h2>
                 </div>
                 <div class="transportation-list">
-                    <!-- Transportation options will be populated by JavaScript -->
-                </div>
+                    </div>
             </section>
         </main>
 
-        <!-- Food Detail Modal -->
         <div id="detail-modal" class="modal">
             <div class="modal-content">
                 <span class="close-modal">&times;</span>
                 <div id="modal-content">
-                    <!-- Modal content will be populated by JavaScript -->
-                </div>
+                    </div>
             </div>
         </div>
 
-        <!-- Map View Modal -->
         <div id="map-modal" class="modal" aria-hidden="true">
             <div class="modal-content">
                 <span class="close-map" id="close-map" aria-label="Close">×</span>
