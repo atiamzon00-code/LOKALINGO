@@ -1,0 +1,27 @@
+{
+  "name": "LokaLingo - Angeles City Guide & Translator",
+  "short_name": "LokaLingo",
+  "description": "Your comprehensive guide and Kapampangan translator for Angeles City.",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#F5F0E8",
+  "theme_color": "#8B6B4C",
+  "icons": [
+    {
+      "src": "icons/lingo-icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/lingo-icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/maskable-lingo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
