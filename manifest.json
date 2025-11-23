@@ -18,6 +18,11 @@
       "type": "image/png"
     },
     {
+      "src": "icons/lingo-icon-144.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    },
+    {
       "src": "icons/maskable-lingo.png",
       "sizes": "512x512",
       "type": "image/png",
